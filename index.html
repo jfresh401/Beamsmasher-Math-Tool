@@ -8,54 +8,61 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>Symbol Math Solver</h1>
+<div class="container">
+    <h1>Symbol Math Solver</h1>
 
-        <label for="xSelect">Choose Symbol for x:</label>
-        <select id="xSelect">
-            <option value="">Select Symbol</option>
-            <option value="22">A (22)</option>
-            <option value="21">B (21)</option>
-            <option value="20">C (20)</option>
-            <option value="11">D (11)</option>
-            <option value="10">E (10)</option>
-            <option value="0">F (0)</option>
-        </select>
-
-        <label for="ySelect">Choose Symbol for y:</label>
-        <select id="ySelect">
-            <option value="">Select Symbol</option>
-            <option value="22">A (22)</option>
-            <option value="21">B (21)</option>
-            <option value="20">C (20)</option>
-            <option value="11">D (11)</option>
-            <option value="10">E (10)</option>
-            <option value="0">F (0)</option>
-        </select>
-
-        <label for="zSelect">Choose Symbol for z:</label>
-        <select id="zSelect">
-            <option value="">Select Symbol</option>
-            <option value="22">A (22)</option>
-            <option value="21">B (21)</option>
-            <option value="20">C (20)</option>
-            <option value="11">D (11)</option>
-            <option value="10">E (10)</option>
-            <option value="0">F (0)</option>
-        </select>
-
-        <button onclick="calculateCodeDigits()">Calculate</button>
-
-        <div class="results">
-            <p id="output1">Code Digit #1: </p>
-            <p id="output2">Code Digit #2: </p>
-            <p id="output3">Code Digit #3: </p>
+    <label>Choose Symbol for x:</label>
+    <div class="dropdown" id="xDropdown" data-value="">
+        <div class="selected"></div>
+        <div class="dropdown-options">
+            <div class="option" data-value="22" style="background-image: url('images/A.png');"></div>
+            <div class="option" data-value="21" style="background-image: url('images/B.png');"></div>
+            <div class="option" data-value="20" style="background-image: url('images/C.png');"></div>
+            <div class="option" data-value="11" style="background-image: url('images/D.png');"></div>
+            <div class="option" data-value="10" style="background-image: url('images/E.png');"></div>
+            <div class="option" data-value="0" style="background-image: url('images/F.png');"></div>
         </div>
-
-        <button onclick="openYouTube()">Go to My YouTube Channel</button>
     </div>
 
-    <script src="script.js"></script>
+    <label>Choose Symbol for y:</label>
+    <div class="dropdown" id="yDropdown" data-value="">
+        <div class="selected"></div>
+        <div class="dropdown-options">
+            <div class="option" data-value="22" style="background-image: url('images/A.png');"></div>
+            <div class="option" data-value="21" style="background-image: url('images/B.png');"></div>
+            <div class="option" data-value="20" style="background-image: url('images/C.png');"></div>
+            <div class="option" data-value="11" style="background-image: url('images/D.png');"></div>
+            <div class="option" data-value="10" style="background-image: url('images/E.png');"></div>
+            <div class="option" data-value="0" style="background-image: url('images/F.png');"></div>
+        </div>
+    </div>
+
+    <label>Choose Symbol for z:</label>
+    <div class="dropdown" id="zDropdown" data-value="">
+        <div class="selected"></div>
+        <div class="dropdown-options">
+            <div class="option" data-value="22" style="background-image: url('images/A.png');"></div>
+            <div class="option" data-value="21" style="background-image: url('images/B.png');"></div>
+            <div class="option" data-value="20" style="background-image: url('images/C.png');"></div>
+            <div class="option" data-value="11" style="background-image: url('images/D.png');"></div>
+            <div class="option" data-value="10" style="background-image: url('images/E.png');"></div>
+            <div class="option" data-value="0" style="background-image: url('images/F.png');"></div>
+        </div>
+    </div>
+
+    <button onclick="calculateCodeDigits()">Calculate</button>
+
+    <div class="results">
+        <p id="output1">Code Digit #1: </p>
+        <p id="output2">Code Digit #2: </p>
+        <p id="output3">Code Digit #3: </p>
+    </div>
+
+    <button onclick="openYouTube()">Go to My YouTube Channel</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
+
 
