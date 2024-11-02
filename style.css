@@ -79,6 +79,13 @@ button {
     margin-top: 20px;
 }
 
+.footer {
+            margin-top: 1vh;
+          margin-bottom: 5vh;
+            text-align: center;
+            font-size: 1.0rem;
+        }
+
 button:hover {
     background-color: #45a049;
 }
