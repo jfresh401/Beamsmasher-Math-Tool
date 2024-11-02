@@ -33,13 +33,13 @@ select, button {
 
 button {
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #C51112;
     color: white;
     border: none;
 }
 
     button:hover {
-        background-color: #45a049;
+        background-color: #940B0C;
     }
 
 .results {
