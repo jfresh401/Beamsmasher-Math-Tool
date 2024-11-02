@@ -36,3 +36,4 @@ function calculateCodeDigits() {
 function openYouTube() {
     window.open("https://www.youtube.com/@FreshLabs401", "_blank");
 }
+
