@@ -33,7 +33,5 @@ function calculateCodeDigits() {
     document.getElementById("output3").textContent = `Code Digit #3: ${codeDigit3}`;
 }
 
-function openYouTube() {
-    window.open("https://www.youtube.com/@FreshLabs401", "_blank");
-}
+
 
